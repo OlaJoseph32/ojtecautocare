@@ -1,4 +1,4 @@
-OjTeC Autocare Ltd
+OjTec Autocare Ltd
 Welcome to the OjTec Autocare Ltd website. This is an automotive repair shop platform where users can explore services and make online bookings for vehicle repairs and maintenance.
 
 Features
