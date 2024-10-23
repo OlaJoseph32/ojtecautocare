@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJTEC AUTOCARE LTD</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/homemedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/images/OJTEC_LOGO_BLUE.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fredoka:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader">
+        <img src="./assets/images/OJTEC_LOGO2.gif" alt="">
+        <div class="divv">
+            <h2 class="cssanimation typing sequence">Loading...</h2>
+        </div>
+    </div>
+
+    <header id="navBAR">
+        <div class="top-header">
+            <div class="nav-bar-container">
+                <div class="top-header-nav">
+                    <h2 class="text-sm">
+                        <a href="#"><i class="fa-solid fa-phone fa-md" style="color: #f58026"></i> +234-803-912-5167,</a> <a href="https://wa.me/2348039125167"><i class="fa-brands fa-whatsapp fa-md" style="color: #f58026"></i> +234-803-912-5167</a>
+                    </h2>
+
+                    <div class="social-link">
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=61567278845193&mibextid=kFxxJD"><i class="fa-brands fa-facebook fa-lg" style="color: #f58026"></i></a> 
+                            <a href="https://www.instagram.com/ojtecautocareltd/"><i class="fa-brands fa-instagram fa-lg" style="color: #f58026"></i></a>
+                        </div>
+                        <div class="schedule-Btn">
+                            <a href="./appointment.html" class="schedule-btn"><i class="fa-solid fa-calendar-days fa-lg" style="color: #000;"></i> Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-header">
+            <nav class="nav-bar-container">
+                <div class="branding">
+                    <a href="./index.html"><img src="./assets/images/OJTEC_LOGO_BLUE.png" alt=""></a>
+                </div>
+
+                <ul class="nav-BAr">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="./services.html" class="dropbtn">Services <span>▼</span></a>
+                        <ul class="dropdown-content">
+                            <li><a href="./services.html#oilchange">Oil Change</a></li>
+                            <li><a href="./services.html#fleetservices">Fleet Services</a></li>
+                            <li><a href="./services.html#brake">Brake</a></li>
+                            <li><a href="./services.html#painting">Painting/Buffing</a></li>
+                            <li><a href="./services.html#transmission">Transmission Services</a></li>
+                            <li><a href="./services.html#tire">Tire Rotation/Alignment</a></li>
+                            <li><a href="./services.html#cooling">Cooling System Flush</a></li>
+                            <li><a href="./services.html#engine">Engine Repair</a></li>
+                            <li><a href="./services.html#consultation">Consultations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#testimonial-Con">Testimonials</a></li>
+                    <!-- <li><a href="#">Blog</a></li> -->
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+
+                <!-- Hamburger button -->
+                <button type="button" class="hamburger" id="menu-btn">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+                
+                <div class="mobile-menu hidden" id="menu">
+                    <ul class="nav-Bar-mobile">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li class="dropdow">
+                            <a href="./services.html" class="dropdownToggl">Services</a>
+                            <!-- <ul class="mobile-dropdown-content">
+                                <li><a href="./services.html">Oil Change</a></li>
+                                <li><a href="./services.html">Fleet Services</a></li>
+                                <li><a href="./services.html">Brake</a></li>
+                                <li><a href="./services.html">Painting/Buffing</a></li>
+                                <li><a href="./services.html">Transmission Services</a></li>
+                                <li><a href="./services.html">Tire Rotation/Alignment</a></li>
+                                <li><a href="./services.html">Cooling System Flush</a></li>
+                                <li><a href="./services.html">Engine Repair</a></li>
+                                <li><a href="./services.html">Consultations</a></li>
+                            </ul> -->
+                        </li>
+                        <!-- <li><a href="#testimonial-Con">Testimonials</a></li> -->
+                        <!-- <li><a href="#">Blog</a></li> -->
+                        <li><a href="./faq.html">FAQ</a></li>
+                        <li><a href="./appointment.html">Book Appointment</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="first-section">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/caro1 (1).jpg" class="d-block w-100 blur-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="text-xl text-center">OjTec Autocare Ltd.</h2>
+                        <p class="text-xxl text-center">Premium Automotive Services at OjTec Autocare</p>
+                        <a href="./appointment.html" class="btn">Book Appointment</a>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/caro1 (2).jpg" class="d-block w-100 blur-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="text-xl text-center">OjTec Autocare Ltd.</h2>
+                        <p class="text-xxl text-center">Comprehensive Solutions for All Your Automotive Needs</p>
+                        <a href="./appointment.html" class="btn">Book Appointment</a>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/caro1 (3).jpg" class="d-block w-100 blur-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="text-xl text-center">OjTec Autocare Ltd.</h2>
+                        <p class="text-xxl text-center">Keeping Your Vehicle in Top Condition with OjTec Autocare</p>
+                        <a href="./appointment.html" class="btn">Book Appointment</a>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/caro1 (4).jpg" class="d-block w-100 blur-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="text-xl text-center">OjTec Autocare Ltd.</h2>
+                        <p class="text-xxl text-center">Reliable Auto Diagnostics and Repairs at OjTec Autocare</p>
+                        <a href="./appointment.html" class="btn">Book Appointment</a>
+                    </div> 
+                </div>
+            </div>
+            
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </section>
+    
+    <!-- Second section -->
+    <section class="second-section-con">
+        <div class="top">
+            <div class="container">
+                <h3 class="text-xl text-center">Avoid the hassle of the auto shop – let a professional mechanic from OjTec Autocare come to you!</h3>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="grid-container grid-reverse">
+                    <div class="grid-img-con animate fade-right">
+                        <img src="./assets/images/photo_8_2024-10-03_12-13-47.jpg" alt="">
+                        <div>
+                            <img src="./assets/images/home pics 2.png" alt="" class="img-resize animate fade-right">
+                            <img src="./assets/images/home pic 3.png" alt="" class="img-resize animate fade-right">
+                        </div>
+                    </div>
+                    <div class="welcome-con">
+                        <h2 class="text-md">Welcome To</h2>
+                        <h3 class="text-xxl">OJTEC AUTOCARE LTD</h3>
+                        <div class="icon-Con">
+                            <i class="fa-solid fa-gear fa-2xl" style="color: #f58026;"></i>
+                        </div>
+                        <div class="paragraph">
+                            <h4 class="text-md">Our mission is to offer not just a service, but an experience that ensures your peace of mind on the road. At OjTec Autocare Ltd, we value integrity, transparency, and quality, making us the go-to choice for all your automotive needs.</h4>
+                            <h5 class="text-sm animate fade-up">At OjTec Autocare Ltd, we pride ourselves on delivering top-notch automotive care with a commitment to excellence and customer satisfaction. Serving the Abuja community and beyond, we understand the importance of reliable, efficient, and comprehensive car care services. Whether you need routine maintenance, diagnostics, or specialized repairs, our team of expert technicians is equipped with the latest tools and technology to keep your vehicle in optimal condition.</h5>
+                            <p class="text-sm animate fade-up">Welcome to OjTec Autocare Ltd – where your vehicle’s health is our top priority!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third section -->
+    <section class="section-three-con">
+        <div class="container">
+            <div class="section-three-grid-con">
+                <div class="autocare animate fade-right">
+                    <h2 class="text-xxl">Auto Repair in Abuja, Nigeria</h2>
+                    <h3 class="text-lg">Professional and Personal Automotive Care</h3>
+                    <p class="text-md">Our facility is your go-to destination for top-rated car service and repair. With our team of ASE-certified technicians and state-of-the-art equipment, we are ready to handle all your automotive needs. Whether you require maintenance or repairs, simply give us a call, book online, or stop by our shop. At OjTec Autocare Ltd, we’re dedicated to keeping your vehicle in peak condition and look forward to serving you soon.</p>
+                </div>
+                <div class="image-CON animate fade-left">
+                    <img src="./assets/images/1.jpg" alt="" class="img1">
+                    <img src="./assets/images/2.jpg" alt="" class="img2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Fourth Section -->
+    <section class="section-four-container">
+        <div class="container">
+            <div class="inner-container">
+                <div class="our-service-con">
+                    <h2 class="text-md text-center"> <span>Our</span> Services</h2>
+                    <div class="icon-Con">
+                        <i class="fa-solid fa-gear fa-lg" style="color: #f58026;"></i>
+                    </div>
+                    <div class="services-con">
+                        <div class="services">
+                            <div class="service-list">
+                                <a href="./services.html#oilchange" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/services-icon-06.png.webp" alt="">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Oil Change</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-list">
+                                <a href="./services.html#fleetservices" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/services-icon_07.webp" alt="">    
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Fleet Services</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-list">
+                                <a href="./services.html#brake" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/services-icon-09.png.webp" alt="">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Brake</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-list">
+                                <a href="./services.html#painting" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/carbon--spray-paint.png" alt="" class="icon-resize">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Painting/Buffing</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="service-list">
+                                <a href="./services.html#transmission" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/material-symbols--auto-transmission.png" alt="" class="icon-resize">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Transmission Service</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-list">
+                                <a href="./services.html#tire" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/services-icon-09.png.webp" alt="">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Tire Rotation/Alignment</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+                                
+                            
+                            <div class="service-list">
+                                <a href="./services.html#engine" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/mdi--engine.png" alt="" class="icon-resize">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Engine Repair</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="service-list">
+                                <a href="./services.html#cooling" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/material-symbols--ac-unit.png" alt="" class="icon-resize">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Cooling system flush</h2>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-list">
+                                <a href="./services.html#consultation" class= "animate fade-right">
+                                    <div class="icon-CON">
+                                        <img src="./assets/images/fluent-emoji-high-contrast--mechanic.png" alt="" class="icon-resize">
+                                    </div>
+                                    <div class="text-CoN">
+                                        <h2>Consultations</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-con"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fifth section -->
+    <section class="fifth-section-container">
+        <div class="container">
+            <div class="grid-con">
+                <div class="need-a-mechanic animate fade-up">
+                    <h2 class="text-xxl">Need a mechanic?</h2>
+                    <p class="text-md">Whether you require a repair estimate or routine maintenance, the team at OjTec Autocare is ready to make the process hassle-free. Call or text us for prompt service, and we’ll send a professional mechanic right to your location!</p>
+                </div>
+                <div class="contact-US animate fade-left">
+                    <a href="./contact.html"> <button type="button" class="contactBtn BTtn">Contact Us Now!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sisxth section-container  -->
+    <section class="sixth-container">
+        <div class="container">
+            <div class="sixth-grid-con">
+                <div class="box-1 animate fade-right">
+                    <h2 class="text-lg">We take care of your car with dependable and trustworthy auto repair <span>Services.</span></h2>
+                    <div class="span-con">
+                        <div class="span-con1">
+                            <div class="Top"></div>
+                            <div class="Bottom"></div>
+                        </div>
+                        <div class="span-con2">
+                            <div class="Top"></div>
+                            <div class="Bottom"></div>
+                        </div>
+                    </div>
+                    <p class="text-md">Keep moving toward the people and places that matter most. Whether it's routine maintenance or major repairs, we're here to help and excited to serve you!</p>
+                    <div class="we-care">
+                        <ul class="we-care-list1">
+                            <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>We Educate Our Customers</li>
+                            </div>
+                            <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>Industry Leading Warranty</li>
+                            </div> <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>A Welcoming Atmosphere</li>
+                            </div> <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>Owner/Operator On-Site</li>
+                            </div>
+                        </ul>
+
+                        <ul class="we-care-list2">
+                            <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>Involved in Local Communities</li>
+                            </div>
+                            <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>Complimentary Shuttle Services</li>
+                            </div> <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>Manufacturer Quality Equipment</li>
+                            </div> <div class="list1">
+                                <img src="./assets/images/fa-solid--dot-circle.png" alt="dot-circle">
+                                <li>ASE Certified Technicians</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-2 animate fade-left">
+                    <img src="./assets/images/Layer-1-768x504-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section Seven -->
+    <section class="seventh-section-con">
+        <div class="container">
+            <div class="dvi-grid">
+                <div class="sub-div animate fade-up">
+                    <h2 class="text-xl">PROFESSIONAL TEAM</h2>
+                    <img src="./assets/images/raphael--people.png" alt="">
+                </div>
+                <div class="sub-div animate fade-right">
+                    <h2 class="text-xl">QUALITY PARTS</h2>
+                    <img src="./assets/images/mdi--car-cog.png"  alt="">
+                </div>
+                <div class="sub-div animate fade-left">
+                    <h2 class="text-xl">ONE STOP SHOP</h2>
+                    <img src="./assets/images/mingcute--shop-fill.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonial section -->
+    <section class="testimonial-con" id="testimonial-Con">
+        <div class="container">
+            <div class="background">
+                <div class="testimonies animate fade-left">
+                    <h2 class="text-md text-center">Testimonies & Feedbacks</h2>
+                    <h3 class="text-md text-center">At OjTec Autocare Ltd, we pride ourselves on providing exceptional service and quality repairs. Here are the experiences few of our satisfied customers who trusted us with their vehicles:</h3>
+                </div>
+                <div class="inner-con">
+                    <div class="swiper-con">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Honda Civic</strong> "OjTec Autocare Ltd went above and beyond when I needed a quick diagnosis for my Honda Civic. Their professionalism and expertise were evident, and they completed the work much faster than I expected. My car runs smoother than ever!"
+                                        </p>
+                                        <h3 class="text-md">~David Adebayo</h3>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Toyota Corolla</strong> "I had a persistent issue with my Toyota Corolla’s engine, and after several failed attempts at other auto shops, OjTec Autocare came to my rescue. Their mechanic was well-certified, friendly, and knew exactly how to fix the problem. I highly recommend them!"
+                                        </p>
+                                        <h3 class="text-md">~Amaka Nwankwo</h3>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Mercedes-Benz C-Class</strong> "The team at OjTec Autocare Ltd was incredibly knowledgeable when it came to servicing my Mercedes-Benz. They performed routine maintenance and even identified a potential issue that could have cost me a lot down the road. I’m impressed with their attention to detail!"
+                                        </p>
+                                        <h3 class="text-md">~Chinedu Okafor</h3>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Lexus RX350</strong> "I had the pleasure of working with OjTec Autocare for my Lexus RX350’s brake repair. They explained the entire process clearly and made sure I was comfortable with the service. My car feels brand new, and I’m extremely satisfied with their work."
+                                        </p>
+                                        <h3 class="text-md">~Funke Adeyemi</h3>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Nissan Altima</strong> "OjTec Autocare Ltd made it so easy to schedule a repair, and the mechanic who worked on my Nissan Altima was highly certified and experienced. They gave me a detailed breakdown of what was wrong and fixed it the same day. Great job!"
+                                        </p>
+                                        <h3 class="text-md"> ~John Obinna</h3>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Ford Explorer</strong> "I contacted OjTec Autocare Ltd for an oil change and general check-up for my Ford Explorer. The mechanic was prompt, professional, and left me feeling confident in the service provided. I’ll definitely be coming back for all my future car needs!"
+                                        </p>
+                                        <h3 class="text-md">~Aisha Ibrahim</h3>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Hyundai Sonata</strong> "The level of service I received from OjTec Autocare Ltd was top-notch. Their mechanic was certified and handled my Hyundai Sonata’s suspension issue with ease. The car feels great now, and I’m thankful for their expert care."
+                                        </p>
+                                        <h3 class="text-md">~Samuel Ojo</h3>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="swiper-content">
+                                        <div class="ICON-CON">
+                                            <i class="fa-solid fa-quote-left fa-2xl" style="color: #fafafa;"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                           <strong>Lexu LX570</strong>  "I needed a quick tire rotation and brake check for my Lexus LX570, and OjTec Autocare Ltd delivered excellent service. Their certified mechanic was efficient and friendly, making the whole process smooth and stress-free. Highly recommend them!"
+                                        </p>
+                                        <h3 class="text-md">~Oluwasola Ajibola</h3>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <!-- <div class="swiper-button-next" id="swiperBtn"></div> -->
+                            <!-- <div class="swiper-button-prev" id="swiperBtn"></div> -->
+                            <div class="swiper-pagination" id="swiperPag"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Last section -->
+    <section class="last-section">
+        <div class=".container">
+            <div class="brands-con animate fade-up">
+                <h2 class="text-md text-center">Brands We Service</h2>
+                <p class="text-sm">At OjTec Autocare, we take pride in servicing a wide range of car brands with unmatched expertise and dedication. Whether it's luxury vehicles, everyday cars, or high-performance machines, our team of experienced technicians is equipped to handle them all. We specialize in providing maintenance, repairs, and diagnostics for various brands</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="slideshow">
+                    <img src="./assets/images/ford2.png" alt="Image 2">
+                    <img src="./assets/images/fiat_logo_2x.png" alt="Image 3">
+                    <img src="./assets/images/honda.png" alt="Image 4">
+                    <img src="./assets/images/Hyunda2i.png" alt="Image 1">
+                    <img src="./assets/images/Infiniti1.png" alt="Image 2">
+                    <img src="./assets/images/kia2.png" alt="Image 3">
+                    <img src="./assets/images/Lexus2.png" alt="Image 1">
+                    <img src="./assets/images/Mercedes-Benz2.png" alt="Image 3">
+                    <img src="./assets/images/ford2.png" alt="Image 2">
+                    <img src="./assets/images/fiat_logo_2x.png" alt="Image 3">
+                    <img src="./assets/images/honda.png" alt="Image 4">
+                    <img src="./assets/images/Hyunda2i.png" alt="Image 1">
+                    <img src="./assets/images/ford2.png" alt="Image 2">
+                    <img src="./assets/images/fiat_logo_2x.png" alt="Image 3">
+                    <img src="./assets/images/honda.png" alt="Image 4">
+                    <img src="./assets/images/Hyunda2i.png" alt="Image 1">
+                    <img src="./assets/images/Infiniti1.png" alt="Image 2">
+                    <img src="./assets/images/ford2.png" alt="Image 2">
+                    <img src="./assets/images/fiat_logo_2x.png" alt="Image 3">
+                    <img src="./assets/images/honda.png" alt="Image 4">
+                    <img src="./assets/images/Hyunda2i.png" alt="Image 1">
+                    <img src="./assets/images/Infiniti1.png" alt="Image 2">
+                    <img src="./assets/images/kia2.png" alt="Image 3">
+                    <img src="./assets/images/Lexus2.png" alt="Image 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="container">
+            <div class="footer-grid-container">
+                <div class="article">
+                    <a href="./index.html">
+                        <img src="./assets/images/OJTEC_LOGO_BLUE.png" alt="">
+                    </a>
+                    <p class="text-sm">"We Listen, We Care, We Repair"</p>
+                    <div class="footer-social-link">
+                        <a href="https://www.facebook.com/profile.php?id=61567278845193&mibextid=kFxxJD"><i class="fa-brands fa-facebook fa-lg" style="color: rgb(225, 221, 221);"></i></a> 
+                        <a href="https://www.instagram.com/ojtecautocareltd/"><i class="fa-brands fa-instagram fa-lg" style="color: rgb(225, 221, 221);"></i></a>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <h2 class="text-md">Services</h2>
+                    <ul>
+                        <li><a href="./services.html#oilchange"><span>></span>Oil Change</a></li>
+                        <li><a href="./services.html#fleetservices"><span>></span>Fleet Services</a></li>
+                        <li><a href="./services.html#brake"><span>></span>Brake</a></li>
+                        <li><a href="./services.html#painting"><span>></span>Painting/Buffing</a></li>
+                        <li><a href="./services.html#transmission"><span>></span>Transmission Services</a></li>
+                        <li><a href="./services.html#tire"><span>></span>Tire Rotation/Alightment</a></li>
+                        <li><a href="./services.html#cooling"><span>></span>Cooling System Flush</a></li>
+                        <li><a href="./services.html#engine"><span>></span>Engine Repair</a></li>
+                        <li><a href="./services.html#consultation"><span>></span>Consultations</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info">
+                    <h2 class="text-md">Contact Information</h2>
+                    <div class="loca">
+                        <div class="iconCON">
+                            <a href="./contact.html#map"><i class="fa-solid fa-location-dot fa-md" style="color: #f58026"></i></a>
+                            <a href="./contact.html#map" id="address"> Cad Zone B/2, Plot 205 Duboyi District, Abuja.</a>
+                        </div>
+                        <div class="iconCON">
+                            <a href=""><i class="fa-solid fa-phone fa-md" style="color: #f58026"></i></a>
+                            <a href="#">+234-803-912-5167</a> 
+                        </div>
+                        <div class="iconCON">
+                            <a href="https://wa.me/2348039125167"><i class="fa-brands fa-whatsapp fa-md" style="color: #f58026"></i></a>
+                            <a href="https://wa.me/2348039125167">+234-803-912-5167</a>
+                        </div>
+                        <div class="iconCON">
+                            <a href=""><i class="fa-solid fa-envelope fa-md" style="color: #f58026"></i></a>
+                            <a href="mailto:ojtecautocareng@gmail.com">ojtecautocareng@gmail.com</a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="business-hour">
+                    <h2 class="text-md">Business Hours</h2>
+                    <h3 class="text sm">OPENING DAYS:</h3>
+                    <p class="text-sm">Monday – Friday : 8am to 7pm </p>
+                    <p class="text-sm">Saturday : 8am to 6:30pm</p>
+                    <h3 class="text sm" id="vacation">VACATIONS:</h3>
+                    <p class="text-sm">All Sundays</p>
+                    <p class="text-sm">Official Holidays</p> 
+                </div>
+            </div>
+            <div class="copywrite">
+                <p class="text-md text-center">Copyright © 2024 All rights reserved | Developed By: <a href="https://wa.me/+2348141232359">DevHubb</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function() {
+            animateSequence();
+            animateRandom();
+        };
+
+        function animateSequence() {
+            var a = document.getElementsByClassName('sequence');
+            for (var i = 0; i < a.length; i++) {
+                var $this = a[i];
+                var letter = $this.innerHTML;
+                letter = letter.trim();
+                var str = '';
+                var delay = 100;
+                for (l = 0; l < letter.length; l++) {
+                    if (letter[l] != ' ') {
+                        str += '<span style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay + 'ms; -webkit-animation-delay:' + delay + 'ms; ">' + letter[l] + '</span>';
+                        delay += 150;
+                    } else
+                        str += letter[l];
+                }
+                $this.innerHTML = str;
+            }
+        }
+
+        function animateRandom() {
+            var a = document.getElementsByClassName('random');
+            for (var i = 0; i < a.length; i++) {
+                var $this = a[i];
+                var letter = $this.innerHTML;
+                letter = letter.trim();
+                var delay = 70;
+                var delayArray = new Array;
+                var randLetter = new Array;
+                for (j = 0; j < letter.length; j++) {
+                    while (1) {
+                        var random = getRandomInt(0, (letter.length - 1));
+                        if (delayArray.indexOf(random) == -1)
+                            break;
+                    }
+                    delayArray[j] = random;
+                }
+                for (l = 0; l < delayArray.length; l++) {
+                    var str = '';
+                    var index = delayArray[l];
+                    if (letter[index] != ' ') {
+                        str = '<span style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay + 'ms; -webkit-animation-delay:' + delay + 'ms; ">' + letter[index] + '</span>';
+                        randLetter[index] = str;
+                    } else
+                        randLetter[index] = letter[index];
+                    delay += 80;
+                }
+                randLetter = randLetter.join("");
+                $this.innerHTML = randLetter;
+            }
+        }
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    </script>
+
+    <script>
+        // Select all elements with the class 'animate'
+        const animatedElements = document.querySelectorAll('.animate');
+
+        // Create an Intersection Observer
+        const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+            // Add the 'visible' class when the element enters the viewport
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target); // Optional: Unobserve to prevent re-triggering
+            }
+        });
+        }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+
+        // Observe each animated element
+        animatedElements.forEach(element => {
+        observer.observe(element);
+        });
+    </script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none"
+        })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</body>
+</html>

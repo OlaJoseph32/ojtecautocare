@@ -1,0 +1,210 @@
+
+/* service page media */
+@media screen and (max-width: 1200px){
+/* header */
+    body{overflow-x: hidden;}
+    /* header{background-color: brown;} */
+    .top-header-nav{justify-content: center;gap: 15rem;}
+    .bottom-header .nav-bar-container{justify-content: center;gap: 15rem;}
+    .bottom-header .branding img{height: 90px;width: 130px;}
+    .nav-Bar{justify-content: center;gap: 15px;margin-left: 12rem;}
+    .nav-Bar li a{font-size: 1rem;}
+    
+    .second-section-con h2{font-size: 2rem;}
+    .second-section-con h3{font-size: 1.2rem;}
+    .second-section-con p{font-size: 1rem; max-width: 800px;}
+    .our-service-background h2{font-size: 2.5rem;}
+    .our-service-background span{font-size: 1.5rem}
+    .book-US .contactBtn{font-size: .9rem;padding: 15px 20px}
+}
+    
+@media screen and (max-width: 1100px){
+/* header */
+    /* header{background-color: rgb(81, 165, 42);} */
+    body{overflow-x: hidden;}
+    .bottom-header .branding img{height: auto;width: 70px;}
+    .top-header-nav{justify-content: center;gap: 10rem;}
+    .bottom-header .nav-bar-container{justify-content: center;gap: 10rem;}
+    .nav-Bar{justify-content: center;gap: 20px;margin-left: 12rem;}
+    .nav-Bar li a{font-size: 1rem;}
+ 
+/* Footer */
+    .footer-container .container{max-width: 1200px;}
+    .article img{height: 90px;width: 100px;}
+    .article p{font-size: .9rem;}
+    .footer-grid-container h2{font-size: 1rem;}
+    .footer-grid-container a{font-size: .8rem;}
+    .contact-info i{font-size: 1rem;}
+    .business-hour h3{font-size: .9rem;}
+    .business-hour p{font-size: .8rem;}
+    .copywrite p{font-size: .9rem;}
+}
+
+
+@media screen and (max-width: 960px){
+/* header */
+    /* header{background-color: rgb(240, 231, 231);} */
+    body{overflow-x: hidden;}
+    .top-header-nav{display: none;}
+    .bottom-header .nav-bar-container{justify-content: center;gap: 10rem;}
+    .nav-Bar{justify-content: center;gap: 13px;margin-left: 7rem;}
+    .nav-Bar li a{font-size: 1rem; padding-top: 5px; font-weight: 700;}
+    .dropdown-content {min-width: 200px;padding-left: 1px;top: 30px;}
+    .dropdown-content li a {font-size: .9rem;}
+ 
+/* Frist section */
+    .our-service-background .div{padding: 6.5rem 30px 0px 20px;}
+    .our-service-grid-con{padding: 10px;gap: 10px;}
+    .our-service-background h2{font-size: 2.5rem}
+    .our-service-background span{font-size: 2rem}
+    .book-US .contactBtn{font-size: 1.4rem;padding: 5px 8px; margin: 0px 35px 20px 10px ; }
+
+/* Second section */
+    .second-section-con h2{font-size: 1.8rem;padding: 45px 0px 8px 0px;}
+    .second-section-con h3{font-size: 1.2rem;}
+    .second-section-con p{font-size: 1rem; max-width: 680px;}
+
+/* Last section */
+    .our-service-grid-con h3{font-size: 1.5rem}
+    .our-service-grid-con p{font-size: .9rem}
+    .services-images img{height: 75%; width: 80%;}
+
+/* Footer */
+    .footer-container .container{max-width: 1200px;}
+    .article img{height: 90px;width: 100px;}
+    .article p{font-size: 1rem;}
+    .footer-grid-container h2{font-size: 1rem;}
+    .footer-grid-container a{font-size: .7rem;}
+    .services-container, .business-hour{margin-left: -1rem;}
+    .contact-info i{font-size: 1rem;}
+    .business-hour h3{font-size: .8rem;}
+    .business-hour p{font-size: .7rem;}
+    .copywrite p{font-size: .8rem;}
+}
+    
+@media screen and (max-width: 768px){
+/* header */
+    /* header{background-color: rgb(236, 6, 248);} */
+    body{overflow-x: hidden;}
+    .bottom-header .nav-bar-container{justify-content: space-around; gap: 20rem;}
+ 
+    
+/* First section */
+    .our-service-background h2{font-size: 2.3rem; padding: 20px 0;}
+    .our-service-background span{font-size: 2rem;}
+    .our-service-background .div{padding: 8.5rem 30px 0px 20px;}
+    .book-US .contactBtn{font-size: 1.5rem;padding: 5px 8px;margin: 0px 20px 15px 10px ;}
+    .our-service-grid-con{grid-template-columns:1fr;}
+    .services-images img{width: 80%; height: auto;}
+    .contact-US{margin: 80px 0;}
+    .contact-US .contactBtn{font-size: 1rem;padding: 15px 20px;}
+
+/* Second section */
+    .second-section-con h2{font-size: 1.8rem;}
+    .second-section-con .container{padding-bottom: 10px;}
+    .second-section-con h3{font-size: 1.2rem;}
+    .second-section-con p{font-size: 1.1rem; max-width: 600px;}
+    
+/* Footer */
+    .footer-container .container{max-width: 1400px;}
+    .article img{height: 90px;width: 100px;}
+    .article p{font-size: 1rem;}
+    .services-container, .business-hour{margin-left: 0rem;}
+    .footer-grid-container h2{font-size: .7rem;}
+    .footer-grid-container a{font-size: .5rem;}
+    .contact-info i{font-size: .7rem;}
+    .business-hour h3{font-size: .6rem;}
+    .business-hour p{font-size: .5rem;}
+    .copywrite p{font-size: .7rem;}
+}
+    
+    
+@media screen and (max-width: 670px){
+/* header */
+    /* header{background-color: rgb(176, 236, 13);} */
+    body{overflow-x: hidden;}
+    .bottom-header .branding img{height: auto;width: 60px; margin-left: 2rem;}
+    .bottom-header .nav-bar-container{justify-content: space-around; gap: 8rem;}
+    .mobile-menu{top: 60px;}
+    
+/* First section */
+    .our-service-background h2{font-size: 1.7rem; padding: 20px 0;}
+    .our-service-background span{font-size: 1.3rem;}
+    .our-service-background .div{padding: 5.5rem 30px 0px 10px;}
+    .book-US .contactBtn{font-size: 1rem;padding: 5px 8px; margin: 0px 10px 10px 8px;}
+    .contact-form .name{margin-right: 3.5%;}
+    .contact-grid-container{padding: 20px}
+
+/* Second section */
+    .second-section-con .container{align-items: start; justify-content: flex-start; padding: 5px 10px 10px 10px; max-width: 330px; margin: 0 auto;}
+    .second-section-con h2{font-size: 1.4rem;}
+    .second-section-con h3{font-size: 1.2rem;}
+    .second-section-con p{font-size: 1.1rem; max-width: 310px;}
+
+
+/* Last section */
+    .last-section-con .container{max-width: 380px; margin: 0 auto; padding: 0;}
+
+/* Footer */
+    .footer-container .container{max-width: 800px; padding: 0;}
+    .footer-grid-container{grid-template-columns: 1fr;gap: 20px;}
+    .article p{font-size: 1rem;}
+    .article img{height: 90px;width: 100px;}
+    .footer-grid-container h2{font-size: 1.2rem;margin-bottom: 10px;}
+    .footer-grid-container a{font-size: .8rem;}
+    .contact-info i{font-size: 1rem;}
+    .business-hour h3{font-size: .8rem;}
+    .business-hour p{font-size: .8rem;}
+    .copywrite p{font-size: .8rem;}
+}
+    
+@media screen and (max-width: 399px){
+/* header{background-color: brown;}  */
+    body{overflow-x: hidden;}
+   
+/* First section */
+    .our-service-background .div{padding: 8.5rem 30px 0px 20px;}
+    .our-service-background h2{font-size: 1.9rem; padding: 20px 0;}
+    .our-service-background span{font-size: 1.4rem;}
+    .book-US .contactBtn{font-size: .8rem;padding: 5px 5px;border-radius: 5px;}
+   
+/*footer  */
+    .copywrite p{font-size: .6rem;}
+    .footer-grid-container a,  .footer-grid-container p{font-size: .8rem}
+    .article p{width: 200px;}
+    .footer-grid-container h2, .footer-grid-container h3{font-size: 1rem}
+    .contact-info span{margin-left: 25px}
+
+}    
+    
+@media screen and (max-width: 320px){
+/* header */
+    /* header{background-color: rgb(37, 172, 244);} */
+    body{overflow-x: hidden;}
+    .bottom-header .branding img{height: auto;width: 60px; margin-left: 3rem;}
+    .bottom-header .nav-bar-container{justify-content: space-around; gap: 10rem;}
+
+    .second-section-con h2{font-size: .9rem;}
+    .second-section-con h3{font-size: .6rem;}
+    .second-section-con p{font-size: .7rem; max-width: 350px;}
+
+/* footer */
+    .copywrite p{font-size: .6rem;}
+    .footer-grid-container a,  .footer-grid-container p{font-size: .8rem}
+    .article p{width: 200px;}
+    .footer-grid-container h2, .footer-grid-container h3{font-size: 1rem}
+}
+
+
+/* iphone 11 landscape */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* header{background-color: brown;}  */
+    .second-section-con .container{padding-bottom: 10px;}
+    .second-section-con h2{font-size: 1.5rem;}
+    .second-section-con h3{font-size: 1rem;}
+    .second-section-con p{font-size: .9rem; max-width: 600px;}
+    .our-service-background .div{padding: 6.5rem 30px 0px 20px;}
+    .our-service-background h2{font-size: 1.6rem; padding: 30px 0;}
+    .our-service-background span{font-size: 1rem;}
+    .book-US .contactBtn{font-size: .6rem;padding: 10px 10px;}
+}
