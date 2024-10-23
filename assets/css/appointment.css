@@ -724,7 +724,7 @@ Show dropdown on hover
 /* Footer */
     .footer-container .container{max-width: 800px; padding: 0;}
     .footer-grid-container{grid-template-columns: 1fr;gap: 20px;}
-    .article p{font-size: 1rem;}
+    .article p{font-size: .9rem;}
     .article img{height: 90px;width: 100px;}
     .footer-grid-container h2{font-size: 1.2rem;margin-bottom: 10px;}
     .footer-grid-container a{font-size: .8rem;}
